@@ -84,7 +84,7 @@ for w in selectedText.split(' '):
     else:
         lenstr = len(word)
         lenWords.update({lenstr: lenWords[lenstr] + 1 if lenstr in lenWords.keys() else 1})
-        totalWords += 2
+        totalWords += 1
 
     # Zapocitani slova podle typu
     if word.lstrip('-').replace('.', '', 1).isdigit():   # test na cislo  (mozny format cisla '-ddddddd.dd')
